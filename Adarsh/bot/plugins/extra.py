@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [GreyMatter's Bot](https://t.me/GreyMatter_Bots)",
+                    text="Join @tgnvs Channel",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/GreyMatter_Owner")
+                                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/tgnvs")
                             ]
                         ]
                     ),
@@ -37,12 +37,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE SUBSCRIBE LINK</B>",
+                    text="<B>ᴊᴏɪɴ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://youtube.com/c/GreyMattersBot")
+                                InlineKeyboardButton("ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/nvsmovielink")
                             ]
                         ]
                     ),
@@ -93,12 +93,12 @@ async def stats(bot, update):
   cpuUsage = psutil.cpu_percent(interval=0.5)
   memory = psutil.virtual_memory().percent
   disk = psutil.disk_usage('/').percent
-  botstats = f'<b>Bot Uptime:</b> {currentTime}\n' \
+  botstats = f'<b>⏲Bot Uptime:</b> {currentTime}\n' \
             f'<b>Total disk space:</b> {total}\n' \
             f'<b>Used:</b> {used}  ' \
             f'<b>Free:</b> {free}\n\n' \
-            f'📊Data Usage📊\n<b>Upload:</b> {sent}\n' \
-            f'<b>Down:</b> {recv}\n\n' \
+            f'📊Data Usage📊\n<b>🔺Upload:</b> {sent}\n' \
+            f'<b>🔻Down:</b> {recv}\n\n' \
             f'<b>CPU:</b> {cpuUsage}% ' \
             f'<b>RAM:</b> {memory}% ' \
             f'<b>Disk:</b> {disk}%'
