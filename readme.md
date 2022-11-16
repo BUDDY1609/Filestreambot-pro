@@ -34,8 +34,7 @@
 
 #### ♢ Click on This Drop-down and get more details
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/Filestreambot-pro
-&branch=main&name=nvsfilestreambot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/Filestreambot-pro&branch=main&name=nvsfiletolinkbot)
 <br>
 <details>
   <summary><b>Deploy on Heroku:</b></summary>
